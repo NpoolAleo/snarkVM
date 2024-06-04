@@ -15,6 +15,9 @@
 pub(crate) mod committee;
 pub use committee::*;
 
+pub mod cost;
+pub use cost::*;
+
 mod macros;
 
 mod rewards;
